@@ -22,26 +22,28 @@ You can put headings by using the '#' symbol before a title heading.
 The more '#' you put the lower the headings get
 
 ie 
-- \# This is a H1 heading with one '#'
-- \## This is a H2 heading with two '#'
-- \### This is a H3 heading with three '#'
-- \#### This is a H4 heading with four '#'
-- \##### This is a H5 heading with five '#'
+```
+- # This is a H1 heading with one '#'
+- ## This is a H2 heading with two '#'
+- ### This is a H3 heading with three '#'
+- #### This is a H4 heading with four '#'
+- ##### This is a H5 heading with five '#'
+```
 
 ## Text formatting
 ---
 ---
 You can put text in bold and italics, but you can not underline text in markdown.
 
-- For **Bold** text, put your text betwen a pair of double asterisk'\*\*' signs, ie '\*\*Text\*\*' will be rendered as **Text**
-- For *Italics* put your text betwen a pair of single asterisk'\*' signs, ie '\*Text\*' will be rendered as *Text*
-- For both ***Bold and Italics*** put your text betwen a pair of tripple asterisk'\*' signs, ie '\*\*\*Text\*\*\*' will be rendered as ***Text***
+- For **Bold** text, put your text betwen a pair of double asterisk `'**'` signs, ie `'**Text**'` will be rendered as **Text**
+- For *Italics* put your text betwen a pair of single asterisk `'*'` signs, ie `'*Text*'` will be rendered as *Text*
+- For both ***Bold and Italics*** put your text betwen a pair of tripple asterisk `'*'` signs, ie `'***Text***'` will be rendered as ***Text***
 
 
 ## Ordered and Unordered list
 ---
 ---
-To put **unordered** lists, put a '-' before your list sentences, while for **ordered** lists, put a number before your list sentences.
+To put **unordered** lists, put a `'-'` before your list sentences, while for **ordered** lists, put a number before your list sentences.
 
 Example of unordered list:
 - one 
@@ -63,10 +65,10 @@ The formatting used for images and links are almost identical with one slight di
 
 *Note :* With links you can have internal or external links:
 - Internal links : links to a page within the project, or a heading within the same page or an alternative page
-- - **\[test](/path/to/section)**
-- - **\[test](/path/to/section#page-heading)**
+- - `[test](/path/to/section)`
+- - `[test](/path/to/section#page-heading)`
 - External links 
-- - **\[test](https://link/to/web-page)**
+- - `[test](https://link/to/web-page)`
 
 
 
